@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deck of Adventures Documents">
+    <meta name="author" content="CBroz1">
+    <link rel="canonical" href="https://www.DeckofAdventures.com/1_Mechanics/02_GMGuide/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>GM Guide - Deck of Adventures</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="../../theme/extra.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">Deck of Adventures</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.md">None</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mechanics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../01_PlayerGuide_Brief/">Brief Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../01_PlayerGuide_Full/">Full Guide</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">GM Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../03_CharacterCreation/">Character Creation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../04_Powers/">04 Powers</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../05_Vulnerabilities/">Vulnerabilities</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../99_Glossary/">Glossary</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Circlular_TC-DR_Tool/">TC/DR Lookup Tool</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../PremadeCharacters/">Premade Characters</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../2_Development/01_Community/">Community</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../2_Development/02_Design_Document/">Design</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CHANGELOG/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CONTRIBUTING/">Contributing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CODE_OF_CONDUCT/">Code of Conduct</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CBroz1/TheGame/docs/1_Mechanics/02_GMGuide.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#gms-guide-to-pelagia">GM’s Guide to Pelagia</a></li>
+        <li class="first-level "><a href="#introduction">Introduction</a></li>
+            <li class="second-level"><a href="#getting-started">Getting Started</a></li>
+                
+            <li class="second-level"><a href="#what-its-all-about">What It’s All About</a></li>
+                
+            <li class="second-level"><a href="#running-a-session-with-deck-of-adventures">Running a Session with Deck of Adventures</a></li>
+                
+                <li class="third-level"><a href="#successes-and-failures">Successes and Failures</a></li>
+                <li class="third-level"><a href="#likelihood-chart">Likelihood Chart</a></li>
+                <li class="third-level"><a href="#fate-cards">Fate Cards</a></li>
+                <li class="third-level"><a href="#skills-breakdown">Skills breakdown</a></li>
+                <li class="third-level"><a href="#contested-checks">Contested checks</a></li>
+            <li class="second-level"><a href="#running-an-adventure">Running an Adventure</a></li>
+                
+            <li class="second-level"><a href="#managing-players-expectations-realities">Managing Players (Expectations &amp; Realities)</a></li>
+                
+            <li class="second-level"><a href="#crunch">Crunch</a></li>
+                
+            <li class="second-level"><a href="#now-what">Now What?</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="gms-guide-to-pelagia">GM’s Guide to Pelagia</h1>
+<!-- `This document could be split into 02_GMGuide_Advice and 02_GMGuide_Crunch` -->
+
+<!-- MarkdownTOC -->
+
+<ul>
+<li>Introduction<ul>
+<li>Getting Started</li>
+<li>What It’s All About</li>
+<li>Running a Session with Deck of Adventures<ul>
+<li>Successes and Failures</li>
+<li>Likelihood Chart</li>
+<li>Fate Cards</li>
+<li>Skills breakdown</li>
+<li>Contested checks</li>
+</ul>
+</li>
+<li>Running an Adventure</li>
+<li>Managing Players (Expectations &amp; Realities)</li>
+<li>Crunch</li>
+<li>Now What?</li>
+</ul>
+</li>
+</ul>
+<!-- /MarkdownTOC -->
+
+<h1 id="introduction">Introduction</h1>
+<blockquote>
+<p>You’ve entered the world of Pelagia as a player, and realized you wanted to become a
+Storyteller, one of the most important parts of Pelagia. This is how our voices spread
+through the heavens. Once known as “Beedle Bards,” Storytellers have taken shape all
+throughout the known Cosmiverse.
+Respected and honored, Storytellers are welcome at every hearth and home, every tavern
+and table, for the joyful company they bring. They tell of adventures, and entertain
+those around them by allowing them to live, for a time, within those adventures.
+Storytellers are known wide and far for their ability, some even call it Magic, to weave
+a story between multiple listeners and spectators and for them to feel they have lived
+those adventures for themselves.
+This is the magic you might wield, oh reader. Guides may lie ahead, but the true spirit
+must come from deep within you.</p>
+<p>Humbly,
+Duke Beedle of Pelagia</p>
+</blockquote>
+<p>As the Game Master, your task is to bring together a group of adventurers and guide them
+through a Story of Pelagia. You can bring together close friends in person, or find new
+friends Virtually through ExampleWebsite.com or in the Discord.</p>
+<p>If you’ve been a Game Master elsewhere and are hoping to learn about what’s different
+about being a Game Master of Pelagia, you can skip right to Section 3, “What it’s all
+about”. For everyone else, or those Game Masters who want a refresher, we’ll dive into
+what being a Game Master is all about in Section 2: “Getting Started”. If you or your
+players ever have questions or need a helping hand, never be afraid to reach out to the
+team on Discord <code>LINK NEEDED</code> or via GitHub issues.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p><code>MISSING</code></p>
+<h2 id="what-its-all-about">What It’s All About</h2>
+<p><code>MISSING</code></p>
+<h2 id="running-a-session-with-deck-of-adventures">Running a Session with Deck of Adventures</h2>
+<h3 id="successes-and-failures">Successes and Failures</h3>
+<ul>
+<li>Critical Successes have a 1.9% chance of success. They should feel amazing. Make an 
+  effort to rewards these exact matches whenever you can.</li>
+<li>Major Successes have a 7.7% chance of success. This should still feel pretty good to
+  your players. </li>
+<li>Successes.</li>
+<li>Misses.</li>
+</ul>
+<h3 id="likelihood-chart">Likelihood Chart</h3>
+<p>The chart below shows probability of success for the kinds of draws you will typically
+encounter at each DR. Note that Color or Suit match divide the likelihood by 2 and 4
+respectively. The final row notes the difference caused by drawing 2 cards at Upper or
+Lower Hand. At the ends, there isn't much of an impact, but can increase or decrease
+the probability by as much as 25% for a DR 3 check.</p>
+<table>
+<thead>
+<tr>
+<th align="right">DR</th>
+<th align="center">0</th>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+<th align="center">6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Normal Draw</td>
+<td align="center">8%</td>
+<td align="center">23%</td>
+<td align="center">38%</td>
+<td align="center">54%</td>
+<td align="center">69%</td>
+<td align="center">85%</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="right">Color Draw</td>
+<td align="center">4%</td>
+<td align="center">12%</td>
+<td align="center">19%</td>
+<td align="center">27%</td>
+<td align="center">35%</td>
+<td align="center">42%</td>
+<td align="center">50%</td>
+</tr>
+<tr>
+<td align="right">Suit Draw</td>
+<td align="center">2%</td>
+<td align="center">6%</td>
+<td align="center">10%</td>
+<td align="center">13%</td>
+<td align="center">17%</td>
+<td align="center">21%</td>
+<td align="center">25%</td>
+</tr>
+<tr>
+<td align="right">Lower Hand 2</td>
+<td align="center">1%</td>
+<td align="center">5%</td>
+<td align="center">15%</td>
+<td align="center">29%</td>
+<td align="center">48%</td>
+<td align="center">72%</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="right">Upper Hand 2</td>
+<td align="center">15%</td>
+<td align="center">41%</td>
+<td align="center">62%</td>
+<td align="center">79%</td>
+<td align="center">91%</td>
+<td align="center">98%</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="right">Difference</td>
+<td align="center">7%</td>
+<td align="center">18%</td>
+<td align="center">24%</td>
+<td align="center">25%</td>
+<td align="center">21%</td>
+<td align="center">13%</td>
+<td align="center">NA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fate-cards">Fate Cards</h3>
+<p>It's up to you to decide how often you want players to use their Fate Cards. By default
+players start with their 2 Jokers and will randomly be rewarded with their Aces. If you
+want to give them more chances to redraw, reward key moments of play. This can be a 
+great tool for encouraging great roleplay or working together. </p>
+<h3 id="skills-breakdown">Skills breakdown</h3>
+<p>Players will want to make checks based on their strengths. Their approach to a situation
+should determine the nature of a check, but the GM has the ultimate say in which skill
+applies. Attributes are more responsive/reactive, often for Contested Checks. 
+Skills are more active for character-initiated events.</p>
+<ul>
+<li>AGL Agility: Unarmored AC, dodging</li>
+<li>Finesse: Primary Skill for Martial</li>
+<li>Stealth: how gracefully you can move about</li>
+<li>CON Conviction: resistance to harmful effects</li>
+<li>Bluffing: how convincing you are, lying or truthful</li>
+<li>Performance: success for activities in front of large audiences</li>
+<li>GUT Intuition: Inexplicable gut feelings (e.g., truthfulness, supernatural knowledge)</li>
+<li>Detection: observing the world passively, taking in the surroundings</li>
+<li>Craft: Primary Skill for Support, practicing a trade (Medicine, Pottery, Piety)</li>
+<li>INT Intelligence: Thinking on the fly, rapidly recalling information</li>
+<li>Knowledge: Primary Skill for Casters, how much you know </li>
+<li>Investigation: Actively answering a specific question with searching</li>
+<li>STR Strength: Resisting a push.</li>
+<li>Athletics: Sustained exertion.</li>
+<li>Brute: Primary Skill for Defenders, a burst hit or single heavy lift.</li>
+<li>VIT Vitality: determines HP, resistance of disease.</li>
+</ul>
+<h3 id="contested-checks">Contested checks</h3>
+<p>Examples
+1. Tackle target: Attacker Finesse vs. Target Athletics
+2. Convince Target, truthfully: Bluffing vs. Detection
+3. Convince Target, deceptively: Bluffing vs. Detection</p>
+<h2 id="running-an-adventure">Running an Adventure</h2>
+<p><code>MISSING</code></p>
+<h2 id="managing-players-expectations-realities">Managing Players (Expectations &amp; Realities)</h2>
+<p><code>MISSING</code></p>
+<h2 id="crunch">Crunch</h2>
+<p><code>MISSING</code></p>
+<h2 id="now-what">Now What?</h2>
+<p><code>MISSING</code></p></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+<hr>
+<p>
+<small>2022 Licensed by <a href="https://github.com/DeckofAdventures">Deck of Adventures</a>, Maintained by the <a href="/2_Development/01_Community">Admin Team</a>.</small>
+
+</p>
+
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deck of Adventures Documents">
+    <meta name="author" content="CBroz1">
+    <link rel="canonical" href="https://www.DeckofAdventures.com/1_Mechanics/03_CharacterCreation/">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>Character Creation - Deck of Adventures</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="../../theme/extra.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">Deck of Adventures</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.md">None</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mechanics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../01_PlayerGuide_Brief/">Brief Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../01_PlayerGuide_Full/">Full Guide</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../02_GMGuide/">GM Guide</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Character Creation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../04_Powers/">04 Powers</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../05_Vulnerabilities/">Vulnerabilities</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../99_Glossary/">Glossary</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Circlular_TC-DR_Tool/">TC/DR Lookup Tool</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../PremadeCharacters/">Premade Characters</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../2_Development/01_Community/">Community</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../2_Development/02_Design_Document/">Design</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CHANGELOG/">Change Log</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CONTRIBUTING/">Contributing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../CODE_OF_CONDUCT/">Code of Conduct</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CBroz1/TheGame/docs/1_Mechanics/03_CharacterCreation.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#character-creation">Character Creation</a></li>
+            <li class="second-level"><a href="#decide-your-background">Decide Your Background</a></li>
+                
+            <li class="second-level"><a href="#choose-your-role">Choose Your Role</a></li>
+                
+            <li class="second-level"><a href="#using-experience-points-xp">Using Experience Points (XP)</a></li>
+                
+                <li class="third-level"><a href="#choose-your-powers">Choose Your Powers</a></li>
+                <li class="third-level"><a href="#choose-your-vulnerabilities">Choose Your Vulnerabilities</a></li>
+                <li class="third-level"><a href="#changing-attributes-and-skills">Changing Attributes and Skills</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="character-creation">Character Creation</h1>
+<h2 id="decide-your-background">Decide Your Background</h2>
+<p>First, choose where your character is coming from including your lived experiences that
+would motivate adventuring. Classically, this is a 'racial' or species origin
+(e.g., Dwarves, Humans, or Elves of Fantasy) that fits with the GM's setting. 
+This has no inherent mechanical impact, but may shape how your character
+navigates challenges. Growing up at a seaport, your character might be more
+adept at sailing (i.e., certain skill checks) than others. Coming to a new land as an
+outsider might be a <a href="#Choose-Your-Vulnerabilities">Vulnerability</a>, as described below.</p>
+<p>Characters beginning their journey at level 1 are relatively unskilled. They may have 
+had one profession for many years, but should not have any significant experience 
+adventuring or traveling beyond the borders of the comfort zone shared by their peers.</p>
+<h2 id="choose-your-role">Choose Your Role</h2>
+<p>Your Role describes how your character navigates challenges. While a Defender might
+apply force, a Caster might find a more magical solution. Choosing an Role grants you
+access to specific upgrades, called Powers. Each Role has a skill they use to attack in
+combat (e.g., Brute Strength or Knowledge). You can switch your Role later on, but must
+forfeit Powers with that prerequisite in exchange for the points previously spent.</p>
+<ul>
+<li>Defender<ul>
+<li>Description: Defenders can take a hit and keep protecting their allies. They focus
+more on battlefield control during combat than outright damage. Not someone to mess
+with!</li>
+<li>Primary Skill: Brute</li>
+<li>Suggested Suit: Clubs ♣️ / Defense 🛡</li>
+</ul>
+</li>
+<li>Support<ul>
+<li>Description: Attending to their allies, support characters may focus on healing or
+other boons to sway the battle in their favor. We're all stronger thanks to the
+support of our friends.</li>
+<li>Primary Skill: Craft</li>
+<li>Suggested Suit: Hearts ♥️ / Life ❤️‍</li>
+</ul>
+</li>
+<li>Martial<ul>
+<li>Description: Martials move quick and hit hard. They're adept with physical weapons
+to directly damage enemies. Agile and light on their feet!</li>
+<li>Primary Skill: Finesse</li>
+<li>Suggested Suit: Spades ♠️ / Offense 🤛</li>
+</ul>
+</li>
+<li>Caster<ul>
+<li>Description: Casters can be mages of fantasy or techno-wizards of a much more
+mundane world. Their intellect drives them to skills the rest of us can barely
+comprehend.</li>
+<li>Primary Skill: Knowledge</li>
+<li>Suggested Suit: Diamonds ♦️ / Conjuring ⚡️</li>
+</ul>
+</li>
+</ul>
+<h2 id="using-experience-points-xp">Using Experience Points (XP)</h2>
+<p>Both at character creation (6) and at the GM's discretion for each level up (3), you are
+awarded Experience Points. These can be spent to gain additional Powers, boost an
+Attribute, a Skill, or remove a Vulnerability. Total XP is
+equal to 6 + (level * 3). DM permitting, you may respec, or exchange powers for their 
+equivalent XP value.</p>
+<h3 id="choose-your-powers">Choose Your Powers</h3>
+<p>Powers are your way of amplifying your character both on and off the battlefield,
+covering simple abilities like swinging a weapon to complicated magical feats. Some
+Powers require a specific Role, prerequisite levels or relevant Attribute/Skill
+Modifiers.</p>
+<p>Each Power has an associated XP cost. Passive mechanics, or Minor magical tricks
+typically cost 1 XP. Big, character-altering feats will cost more. Major Powers are
+tiresome and require a limited resource to use: Fate Points(FP). Each Power will list
+the range of FP that can be spent (e.g., 1 FP to target one enemy vs. 2 FP to target
+multiple). The more FP spent, the bigger the effect. Numbers separated by <code>/</code> in the
+mechanics description indicate different effects depending on FP spent.</p>
+<p>Adding a Power with an FP cost raises the character's maximum FP by the largest number
+of FP listed for that Power. FP are replenished on a 
+<a href="../01_PlayerGuide_Full/#Rests">Rest</a>.</p>
+<p>Unless otherwise noted, Powers...
+1. Take a Major Action to perform and use a Dealer's Primary
+ Skill Modifier. 
+2. That have sustained effects, may only be used one at a time. Passive Powers take no action and are always in effect.
+3. That damage, deal 1 point of damage.
+4. That have implied range, may be used up to 6 spaces away.</p>
+<h3 id="choose-your-vulnerabilities">Choose Your Vulnerabilities</h3>
+<p>People are not perfect, and many have Vulnerabilities as a result of their relationship
+with the world. At character creation you can choose up to four Vulnerabilities, which
+add mechanical and roleplay implications, like being afraid of fire or unable to swim.
+Adding Vulnerabilities to your character will grant you additional Experience Points
+during character creation. Each Vulnerability added grants 1 (Minor) or 2
+(Major) Experience Points, but you can only gain 4 total Experience Points during
+character creation. A GM may overrule this limit if, for example, the events of the
+story result in a character gaining an additional Vulnerability.</p>
+<p>Vulnerability types:</p>
+<ul>
+<li><strong>Minor</strong>: Adds 1 XP</li>
+<li><strong>Major</strong>: Adds 2 XP</li>
+</ul>
+<p>Some Vulnerabilities are either Minor or Major, depending on the effects you choose.</p>
+<h3 id="changing-attributes-and-skills">Changing Attributes and Skills</h3>
+<p>All Attributes and Skills start at a 0 Modifier. You can adjust your Skills and
+Attributes using your Experience Points (XP), which will help define how capable your
+character for relevant actions. On initial character creation, you can spend or earn
+points by increasing or decreasing Attributes and Skill Modifiers up to -2 or +2. This
+upper limit increases as you level up (see table below). Once modifiers are set at
+character creation, a player may only add newly awarded Experience points.</p>
+<p><strong>Mod Cap by Level</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Level</th>
+<th align="center">SkillCap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+</tbody>
+</table>
+<p>The lower limit for Modifiers is -2. If -1, any Check made with that modifier must be 
+be a Color Match for success. If -2, any Check made with that modifier must be Suit 
+Match for success.</p>
+<p>Raising an Attribute Modifier by +1 initially costs 2 Experience Points. Raising a Skill
+Modifier by +1 initially costs +1 Experience Point. In both cases, raising
+modifiers becomes more costly as you add. The table below shows the cost in
+Experience Points and the resulting modifier for Attributes and Skills.</p>
+<p><strong>XP Cost for Attributes (left) and Skills (Right)</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">XP Cost</th>
+<th align="center">Atrib<br />Mod</th>
+<th align="center">XP Cost</th>
+<th align="center">Skill<br />Mod</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-4</td>
+<td align="center">-2</td>
+<td align="center">-2</td>
+<td align="center">-2</td>
+</tr>
+<tr>
+<td align="center">-2</td>
+<td align="center">-1</td>
+<td align="center">-1</td>
+<td align="center">-1</td>
+</tr>
+<tr>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">4</td>
+<td align="center">6</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">5</td>
+<td align="center">9</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td align="center">6</td>
+<td align="center">12</td>
+<td align="center">6</td>
+</tr>
+</tbody>
+</table></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+<hr>
+<p>
+<small>2022 Licensed by <a href="https://github.com/DeckofAdventures">Deck of Adventures</a>, Maintained by the <a href="/2_Development/01_Community">Admin Team</a>.</small>
+
+</p>
+
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
